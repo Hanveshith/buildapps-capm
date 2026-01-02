@@ -1,0 +1,8 @@
+EmployeeID,EmployeeName,Email,Department,Designation,ManagerID,createdAt,createdBy,modifiedAt,modifiedBy
+df966ca0-67e3-4e52-8be5-2f006371531d,Rahul Sharma,rahul.sharma@company.com,Engineering,Software Engineer,df966ca0-67e3-4e52-8be5-2f006371535d,,,,
+df966ca0-67e3-4e52-8be5-2f006371532d,Ananya Verma,ananya.verma@company.com,Engineering,Senior Software Engineer,df966ca0-67e3-4e52-8be5-2f006371535d,,,,
+df966ca0-67e3-4e52-8be5-2f006371533d,Suresh Kumar,suresh.kumar@company.com,Finance,Accountant,df966ca0-67e3-4e52-8be5-2f006371536d,,,,
+df966ca0-67e3-4e52-8be5-2f006371534d,Meera Iyer,meera.iyer@company.com,HR,HR Executive,df966ca0-67e3-4e52-8be5-2f006371537d,,,,
+df966ca0-67e3-4e52-8be5-2f006371535d,Vikram Rao,vikram.rao@company.com,Engineering,Engineering Manager,,,,,
+df966ca0-67e3-4e52-8be5-2f006371536d,Pooja Nair,pooja.nair@company.com,Finance,Finance Manager,,,,,
+df966ca0-67e3-4e52-8be5-2f006371537d,Arjun Singh,arjun.singh@company.com,HR,HR Manager,,,,,

@@ -1,0 +1,135 @@
+@server=http://localhost:4004
+@username=alice
+@password=
+
+
+### Employee
+# @name Employee_GET
+GET {{server}}/odata/v4/leave-management/Employee
+Authorization: Basic {{username}}:{{password}}
+
+
+### Employee
+# @name Employee_POST
+POST {{server}}/odata/v4/leave-management/Employee
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "EmployeeID": "1256641f-2b24-41b9-a282-4eba3c34d5f8",
+  "EmployeeName": "EmployeeName-1256641",
+  "Email": "Email-1256641",
+  "Department": "Department-1256641",
+  "Designation": "Designation-1256641",
+  "ManagerID": "12566415-437d-4d06-b470-42ebc6c97453",
+  "createdAt": "2000-08-03T00:00:00.000Z",
+  "createdBy": "createdBy.qxmp@example.net",
+  "modifiedAt": "2022-04-15T00:00:00.000Z",
+  "modifiedBy": "modifiedBy.qxmp@example.com"
+}
+
+
+### Employee
+# @name Employee_PATCH
+PATCH {{server}}/odata/v4/leave-management/Employee/1256641f-2b24-41b9-a282-4eba3c34d5f8
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "EmployeeID": "1256641f-2b24-41b9-a282-4eba3c34d5f8",
+  "EmployeeName": "EmployeeName-1256641",
+  "Email": "Email-1256641",
+  "Department": "Department-1256641",
+  "Designation": "Designation-1256641",
+  "ManagerID": "12566415-437d-4d06-b470-42ebc6c97453",
+  "createdAt": "2000-08-03T00:00:00.000Z",
+  "createdBy": "createdBy.qxmp@example.net",
+  "modifiedAt": "2022-04-15T00:00:00.000Z",
+  "modifiedBy": "modifiedBy.qxmp@example.com"
+}
+
+
+### Employee
+# @name Employee_DELETE
+DELETE {{server}}/odata/v4/leave-management/Employee/1256641f-2b24-41b9-a282-4eba3c34d5f8
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+
+### LeaveRequest
+# @name LeaveRequest_GET
+GET {{server}}/odata/v4/leave-management/LeaveRequest
+Authorization: Basic {{username}}:{{password}}
+
+
+### LeaveRequest
+# @name LeaveRequest_POST
+POST {{server}}/odata/v4/leave-management/LeaveRequest
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "LeaveID": "11105232-31fa-466b-91e8-96f757cbbee",
+  "Employee_EmployeeID" : "df966ca0-67e3-4e52-8be5-2f006371531d",
+  "LeaveType": "LeaveType-11105232",
+  "StartDate": "2016-01-03",
+  "EndDate": "2006-06-14",
+  "TotalDays": 76.2,
+  "Reason": "Reason-11105232",
+  "Status": "Status-11105232",
+  "ManagerStatus": "nagerStatus-11105232",
+  "HRStatus": "HRStatus-11105232",
+  "SubmittedAt": "2016-09-05T00:00:00.000Z",
+  "ManagerApprovedAt": "2016-01-08T00:00:00.000Z",
+  "HRApprovedAt": "2023-10-11T00:00:00.000Z",
+  "RejectedAt": "2010-11-16T00:00:00.000Z",
+  "RejectionReason": "RejectionReason-11105232",
+  "createdAt": "2018-10-23T00:00:00.000Z",
+  "createdBy": "createdBy.6m0uo@example.com",
+  "modifiedAt": "2009-06-13T00:00:00.000Z",
+  "modifiedBy": "modifiedBy.6m0uo@example.com"
+}
+
+
+### LeaveRequest
+# @name LeaveRequest_PATCH
+PATCH {{server}}/odata/v4/leave-management/LeaveRequest/11105232-31fa-466b-91e8-96f757cbbee0
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}
+
+{
+  "LeaveID": "11105232-31fa-466b-91e8-96f757cbbee0",
+  "Employee": {
+    "EmployeeID": "1256641f-2b24-41b9-a282-4eba3c34d5f8"
+  },
+  "Manager": {
+    "EmployeeID": "1256641f-2b24-41b9-a282-4eba3c34d5f8"
+  },
+  "HR": {
+    "EmployeeID": "1256641f-2b24-41b9-a282-4eba3c34d5f8"
+  },
+  "LeaveType": "LeaveType-11105232",
+  "StartDate": "2016-01-03",
+  "EndDate": "2006-06-14",
+  "TotalDays": 76.2,
+  "Reason": "Reason-11105232",
+  "Status": "Status-11105232",
+  "ManagerStatus": "nagerStatus-11105232",
+  "HRStatus": "HRStatus-11105232",
+  "SubmittedAt": "2016-09-05T00:00:00.000Z",
+  "ManagerApprovedAt": "2016-01-08T00:00:00.000Z",
+  "HRApprovedAt": "2023-10-11T00:00:00.000Z",
+  "RejectedAt": "2010-11-16T00:00:00.000Z",
+  "RejectionReason": "RejectionReason-11105232",
+  "createdAt": "2018-10-23T00:00:00.000Z",
+  "createdBy": "createdBy.6m0uo@example.com",
+  "modifiedAt": "2009-06-13T00:00:00.000Z",
+  "modifiedBy": "modifiedBy.6m0uo@example.com"
+}
+
+
+### LeaveRequest
+# @name LeaveRequest_DELETE
+DELETE {{server}}/odata/v4/leave-management/LeaveRequest/11105232-31fa-466b-91e8-96f757cbbee0
+Content-Type: application/json
+Authorization: Basic {{username}}:{{password}}

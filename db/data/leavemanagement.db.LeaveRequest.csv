@@ -1,0 +1,5 @@
+LeaveID,Employee_EmployeeID,Manager_EmployeeID,HR_EmployeeID,LeaveType,StartDate,EndDate,TotalDays,Reason,Status,ManagerStatus,HRStatus,SubmittedAt,ManagerApprovedAt,HRApprovedAt,RejectedAt,RejectionReason,createdAt,createdBy,modifiedAt,modifiedBy
+967422bd-9e60-4c2a-8503-cb6b5c50e91a,df966ca0-67e3-4e52-8be5-2f006371531d,,,Casual Leave,2025-01-05,2025-01-06,2,Family function,Submitted,Pending,Pending,2025-01-04T09:00:00Z,,,,,,
+967422bd-9e60-4c2a-8503-cb6b5c50e92a,df966ca0-67e3-4e52-8be5-2f006371532d,,,Sick Leave,2025-01-10,2025-01-10,1,Fever,Submitted,Pending,Pending,2025-01-10T08:00:00Z,,,,,,
+967422bd-9e60-4c2a-8503-cb6b5c50e93a,df966ca0-67e3-4e52-8be5-2f006371533d,,,Privilege Leave,2025-02-01,2025-02-05,5,Vacation,Draft,Pending,Pending,,,,,,,,
+967422bd-9e60-4c2a-8503-cb6b5c50e94a,df966ca0-67e3-4e52-8be5-2f006371534d,,,Casual Leave,2025-03-15,2025-03-15,1,Personal work,Draft,Pending,Pending,,,,,,,,
